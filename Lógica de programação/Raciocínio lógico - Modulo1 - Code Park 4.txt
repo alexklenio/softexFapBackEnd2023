@@ -1,0 +1,49 @@
+Algoritmo "cadastro"
+
+
+var
+      nome, endereco, cidade, nomeMae, nomePai: caractere
+      cpf, rg, peso, rendaBruta: real
+      idade: inteiro
+            
+
+inicio
+
+   escreva("Informe seu nome: ")
+   leia(nome)
+   escreva("Informe seu ebdereço: ")
+   leia(endereco)
+   escreva("Informe sua cidade: ")
+   leia(cidade)
+   escreva("Informe seu CPF: ")
+   leia(cpf)
+   escreva("Informe seu RG: ")
+   leia(rg)
+   escreva("Informe sau idade: ")
+   leia(idade)
+   escreva("Informe o nome da sua Mãe: ")
+   leia(nomeMae)
+   escreva("Informe o nome do seu Pai: ")
+   leia(nomePai)
+   escreva("Informe seu peso: ")
+   leia(peso)
+   escreva("Informe sau renda bruta: ")
+   leia(rendaBruta)
+
+   escreva("Cadastro realizado com sucesso!")
+
+   escreva("")
+
+   escreva("Nome: ", nome)
+   escreva("Endereço: ", endereco)
+   escreva("Cidade: ", endereco)
+   escreva("CPF: ", cpf)
+   escreva("RG: ", rg)
+   escreva("Idade : ", idade)
+   escreva("Nome da Mãe : ", nomeMae)
+   escreva("Nome do Pai : ", nomePai)
+   escreva("Peso : ", peso)
+   escreva("Renda Bruta : ", rendaBruta)
+
+
+Fimalgoritmo
