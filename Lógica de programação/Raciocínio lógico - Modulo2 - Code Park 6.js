@@ -1,4 +1,5 @@
 while (true) {
+  // imprime no console as informações sobre as operações
   console.log("========== Calculadora ==========");
   console.log("1: Soma");
   console.log("2: Subtração");
@@ -15,7 +16,7 @@ while (true) {
     console.log("========== Final Calculadora ==========");
     break;
 
-    // sendo o valor diferente de 0 e menor ou igual a 4 exexutará uma condição
+    // sendo o valor diferente de 0 e menor ou igual a 4 executará uma condição
   } else if (opcao >= 1 && opcao <= 4) {
     var num1 = parseFloat(prompt("Digite o primeiro número:"));
     var num2 = parseFloat(prompt("Digite o segundo número:"));
@@ -31,7 +32,7 @@ while (true) {
     } else if (opcao === 4) {
       resultado = num1 / num2;
     }
-
+    // impressão no console o resultado de acordo com a operação escolhida
     console.log("Resultado:", resultado.toFixed(2));
   } else {
     console.log("Opção inválida. Por favor, escolha uma das opções listadas.");
