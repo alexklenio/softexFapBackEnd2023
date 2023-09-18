@@ -1,6 +1,7 @@
 /* VisualStudio Code, instalado e com as Extenções Node.js Exec para rodar o node dentro da IDE,
 Extenção Prettier que ajuda na organização e formatação do código escrito,
 Extenção Live Server que  cria um servidor local, possibilitando a visualização e execução do codigo asim que     escrito,
+Material Icon Theme que mostra ao lado do nome do arquivo o icone repreentando a linguagem que esta sendo escrita de acordo com a extenção que for atribuida a ela quando salva,
  TemaDracula, apenas para desacar em cores no codigo de acordo com o que for escrito.*/
 
 //declaração de variáveis
