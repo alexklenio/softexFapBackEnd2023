@@ -8,7 +8,7 @@ características e ações.
 
 ### Objetos Materiais
 
-**Pessoa**
+- **Pessoa**
 
 **Métodos:** 
 
@@ -45,7 +45,7 @@ pessoa.comer(); // A pessoa está comendo.
 
 ``` 
 
-**Carro**
+- **Carro**
 
 **Métodos:** 
 
@@ -83,7 +83,7 @@ carro.acelerar(); // O carro está acelerando.
 
 ### Objetos abstrados
 
-**Cálculo matemático**
+- **Cálculo matemático**
 
 **Métodos:**
 
@@ -113,7 +113,7 @@ console.log(multiplicar(10, 20)); // 200
 
 ```
 
-**Forma geométrica**
+- **Forma geométrica**
 
 **Métodos:**
 
