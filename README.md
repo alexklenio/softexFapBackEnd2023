@@ -1,6 +1,7 @@
+
 # SOFTEX RECIFE | FAP - Formação Acelerada em Programação
 
-## **Formação Backend:** Na formação Back end o aluno aprenderá como desenvolver arquiteturas de servidor, que interagem com aplicações web, de aplicações cliente servidor
+### **Formação Backend:** Na formação Back end o aluno aprenderá como desenvolver arquiteturas de servidor, que interagem com aplicações web, de aplicações cliente servidor
 
 # Diciplinas
 
@@ -14,4 +15,10 @@
 ### Repositório destinado às resoluções de atividades realizadas na plataforma do curso e na sala de aula.
 
 - [Plataforma Softex](https://softexrecife.joyclass.com/login)
-- [Sintaxe Markdown para estudos](https://www.markdownguide.org)
+  
+<p>
+    <img src="https://img.shields.io/github/languages/count/alexklenio/softexFapBackEnd2023"/>
+    <img src="https://img.shields.io/github/repo-size/alexklenio/softexFapBackEnd2023"/>
+    <img src="https://img.shields.io/github/last-commit/alexklenio/softexFapBackEnd2023"/>
+    <img src="https://img.shields.io/github/issues/alexklenio/softexFapBackEnd2023"/>
+</p
