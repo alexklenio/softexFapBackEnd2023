@@ -15,10 +15,12 @@
 ### Repositório destinado às resoluções de atividades realizadas na plataforma do curso e na sala de aula.
 
 - [Plataforma Softex](https://softexrecife.joyclass.com/login)
-  
-<p>
-    <img src="https://img.shields.io/github/languages/count/alexklenio/softexFapBackEnd2023"/>
-    <img src="https://img.shields.io/github/repo-size/alexklenio/softexFapBackEnd2023"/>
-    <img src="https://img.shields.io/github/last-commit/alexklenio/softexFapBackEnd2023"/>
-    <img src="https://img.shields.io/github/issues/alexklenio/softexFapBackEnd2023"/>
-</p
+
+<div align="center">
+  <p>
+      <img src="https://img.shields.io/github/languages/count/alexklenio/softexFapBackEnd2023"/>
+      <img src="https://img.shields.io/github/repo-size/alexklenio/softexFapBackEnd2023"/>
+      <img src="https://img.shields.io/github/last-commit/alexklenio/softexFapBackEnd2023"/>
+      <img src="https://img.shields.io/github/issues/alexklenio/softexFapBackEnd2023"/>
+  </p> 
+</div>
