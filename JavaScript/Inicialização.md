@@ -75,7 +75,7 @@ server.listen(5000, () => console.log('Server on'))
 
 ### Executanto o servidor 
 
-Após tudo os seguintes comandos estarão disponíveis:
+Após tudo configurado os seguintes comandos estarão disponíveis:
 
 ``` javascript
  npm run dev // executa o seu arquivo **index.ts** sem a necessidade de transpilar pada Javascript
