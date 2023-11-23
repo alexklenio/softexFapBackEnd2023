@@ -29,7 +29,7 @@ git init  //  inicializa o git no projeto
 
 ``` javascript
  "dev": "ts-node-dev src/index.ts",// executa o seu arquivo intex.ts sem precisar transpilar para JS
- "build": "rimraf ./build && tsc", // apaga a ./build se existir e recria todo o projeto para JS na nova pasta
+ "build": "rimraf ./build && tsc", // transpila todo o projeto para JS na pasta Build
  "start": "node build/index.js",   // excuta o novo arqiuivo index.js que foi criado, se preciso.
 ```
 
@@ -65,5 +65,17 @@ server.get('/', (request: Request, response: Response) => {
 })
 
 server.listen(5000, () => console.log('Server on'))
-
 ```
+
+### Executanto o servidor 
+
+Após tudo os seguintes comandos estarão disponíveis:
+
+``` javascript
+ npm run dev // executa o seu arquivo **index.ts** sem a necessidade de transpilar pada Javascript
+ npm run build // apaga a pasta build, se existir, e recria a mesma transpilando todo o projeto para JS
+ npm run start // excuta o novo arqiuivo index.js que foi criado, se preciso.
+```
+
+
+# Ajudou? Deixa uma estrelinha lá em cima para o gordo ficar feliz!
