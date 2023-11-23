@@ -1,6 +1,6 @@
 <h1>
     <a href="https://softexpe.org.br/">
-     <img align="center" width="60px" src="https://media.licdn.com/dms/image/C4E0BAQF2pVcNYJBb9g/company-logo_200_200/0/1649074408972/softexrecife_logo?e=2147483647&v=beta&t=i3A4BP7Ul0FZy62CnpFgJ7H-Psdx0hXjUa2I4i0WndU"></a>
+     <img align="center" width="60px" target="_blank" src="https://media.licdn.com/dms/image/C4E0BAQF2pVcNYJBb9g/company-logo_200_200/0/1649074408972/softexrecife_logo?e=2147483647&v=beta&t=i3A4BP7Ul0FZy62CnpFgJ7H-Psdx0hXjUa2I4i0WndU"></a>
     <span> Configurando uma API em Typescript com Express</span>
 </h1>
 
