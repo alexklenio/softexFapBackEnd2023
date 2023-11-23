@@ -34,7 +34,13 @@ git init  //  inicializa o git no projeto
 ```
 
   
-- Crie o arquivo **.gitignore** e dentro dele digite as bastas build e logo abaixo node_modules.
+- Crie o arquivo **.gitignore** e dentro dele digite as bastas build e logo abaixo node_modules:
+  
+``` javascript
+build
+node_modules
+``` 
+  
 
 ### Instalação do express
 
@@ -78,4 +84,5 @@ Após tudo os seguintes comandos estarão disponíveis:
 ```
 
 
-# Ajudou? Deixa uma estrelinha lá em cima para o gordo ficar feliz!
+# Ajudou? 
+## Deixa uma estrelinha lá em cima para o gordo ficar feliz!
