@@ -28,9 +28,9 @@ git init  //  inicializa o git no projeto
 	- Abra o arquivo **package.json** vá até a seção **scripts** e crie os seguintes comandos:
 
 ``` javascript
-         "dev": "ts-node-dev src/index.ts",// executa o seu arquivo intex.ts sem precisar transpilar para JS
-         "build": "rimraf ./build && tsc", // apaga a ./build se existir e recria todo o projeto para JS na nova pasta.
-         "start": "node build/index.js",   // excuta o novo arqiuivo index.js que foi criado, se preciso.
+ "dev": "ts-node-dev src/index.ts",// executa o seu arquivo intex.ts sem precisar transpilar para JS
+ "build": "rimraf ./build && tsc", // apaga a ./build se existir e recria todo o projeto para JS na nova pasta
+ "start": "node build/index.js",   // excuta o novo arqiuivo index.js que foi criado, se preciso.
 ```
 
   
