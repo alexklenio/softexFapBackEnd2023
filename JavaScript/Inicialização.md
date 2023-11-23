@@ -17,25 +17,26 @@ npm init --y // inicializa o node no projeto
 npm i -D typescript ts-node-dev // instalação do Typescript e do ts-node-dev
 npx tsc --init // inicializa o typescript no projeto
 git init  //  inicializa o git no projeto
-``` 
+```
 
 ### Configuração
 
-- crie no seu projeto uma pasta chamada **src** e dentro dela um novo arquivo chamado **index.ts**
+- Crie no seu projeto uma pasta chamada **src** e dentro dela um novo arquivo chamado **index.ts**
 - Abra o arquivo **tsconfig.json**:
     - Descomente a configuração **outDir** e digite o caminho **./build**
 	- No final das configurações do **compilerOptions** coloque uma **,** digite a configutação **"include": ["src"]** e salve as novas configurações.
 	- Abra o arquivo **package.json** vá até a seção **scripts** e crie os seguintes comandos:
-	 ``` javascript
 
-	    "dev": "ts-node-dev src/index.ts",   // executa o seu arquivo intex.ts sem precisar transpilar para JS
-	    "build": "rimraf ./build && tsc",    // apaga a pasta ./build se existir e recria a mesma, após isso transpila todo o projeto para JS dentro da pasta Build.
-        "start": "node build/index.js",       // excuta o novo arqiuivo index.js que foi criado, se preciso.    
-        
-	  ``` 
+``` javascript
+         "dev": "ts-node-dev src/index.ts",// executa o seu arquivo intex.ts sem precisar transpilar para JS
+         "build": "rimraf ./build && tsc", // apaga a ./build se existir e recria todo o projeto para JS na nova pasta.
+         "start": "node build/index.js",   // excuta o novo arqiuivo index.js que foi criado, se preciso.
+```
+
+  
 - Crie o arquivo **.gitignore** e dentro dele digite as bastas build e logo abaixo node_modules.
 
-### instalação do express
+### Instalação do express
 
 Abra o terminal e digite os seguintes comandos:
 
@@ -46,14 +47,6 @@ npm i -D @types/express // instalação dos tipos do express
 ``` 
 
 ### Implementação do servidor
-
-Abra o terminal e realize as instalações:
-
-``` javascript
-
-npm i express // instalação do Express
-npm i -D @types/express // instalação dos tipos do express
-```
 
 Abra o arquivo **index.ts** e digite os seguines codigos:
 
