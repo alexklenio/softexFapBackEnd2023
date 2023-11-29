@@ -4,7 +4,7 @@
     <span> Configurando uma API em Typescript com Express</span>
 </h1>
 
-Arquivo desenvolvido para fins didáticos em contribuição com o múdulo de WebServices da **Formação acelerada de programadores Backed - SOFTEX**
+Arquivo desenvolvido para fins didáticos em contribuição com a **Formação acelerada de programadores Backed - SOFTEX**
 
 
 ### Inicializando aplicação em um novo projeto
