@@ -13,6 +13,8 @@ Ao terminar, envie o MER criado no BrModelo e o Modelo Relacional criado no MySQ
 
 ## Modelo de Entidades e Relacionamento
 
-
-
+<img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2001/imagens/MER.png" width="1000"/>
+   
 ## Modelo Relacional
+
+<img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2001/imagens/MR.png" width="1000"/>
