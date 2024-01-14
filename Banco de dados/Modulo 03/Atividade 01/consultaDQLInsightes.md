@@ -28,7 +28,7 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 ### 1.	
 ** SELECT * FROM ljeletronicos.vendas;
 
-<img align="center" src="" width="1000"/>
+<img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/01.png" width="1000"/>
 
 ### 2.
 **   	USE ljeletronicos;  
@@ -39,25 +39,25 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 
 ### Antes do comando de alteração de colunas
 
-<img align="center" src="" width="1000"/>
+<img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/02.png" width="1000"/>
 
 ### Depois do comando de alteração de colunas:
 
-<img align="center" src="" width="1000"/>
+<img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/03.png" width="1000"/>
 
 ### 3.	
-** SELECT * FROM vendas WHERE valor > 100.00;
+** SELECT * FROM vendas WHERE valor > 100.00; 
 
 ** Resultado:
 
-<img align="center" src="" width="1000"/>
+<img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/04.png" width="1000"/>
 
 ### 4.
 ** SELECT * FROM vendas ORDER BY Valor DESC;
 
 ** Resultado:
 
-<img align="center" src="" width="1000"/>
+<img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/05.png" width="1000"/>
 
 ### 5.
 ** SELECT
@@ -69,7 +69,7 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 
 ** Resultado:
 
-<img align="center" src="" width="1000"/>
+<img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/06.png" width="1000"/>
 
 ### 6.
 **	SELECT GRUPO,
@@ -79,7 +79,7 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 
 ** Resultado
 
-<img align="center" src="" width="1000"/>
+<img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/07.png" width="1000"/>
 
 ### 7.	
 ** SELECT grupo,
@@ -91,7 +91,7 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 
 ** Resultado
 
-<img align="center" src="" width="1000"/>
+<img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/08.png" width="1000"/>
 
 ### 8. Insights
 
