@@ -32,9 +32,13 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 
 ### 2.
 **USE ljeletronicos;**
+
 **SELECT transcaoID AS 'IDtransacao',**
+
 **Data AS 'datavenda',**
+
 **Valor AS 'valorvenda'**
+
 **FROM vendas;**
 
 ### Antes do comando de alteração de colunas
@@ -62,9 +66,13 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 ### 5.
 **SELECT
 **AVG(Valor) AS Media_Valor,**
+
 **MAX(Valor) AS Valor Máximo,**
+
 **MIN(Valor) AS Valor_Minimo,**
+
 **COUNT(*) AS qtdvendas**
+
 **FROM vendas**
 
 **Resultado:**
@@ -73,8 +81,11 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 
 ### 6.
 **	SELECT GRUPO,**
+
 **AVG(Valor) AS Media_Valor_Por_Grupo**
+
 **FROM vendas**
+
 **GROUP BY grupo;**
 
 **Resultado**
