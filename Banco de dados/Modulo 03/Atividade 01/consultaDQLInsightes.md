@@ -18,7 +18,7 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 
 7. Consulta combinada: escreva uma consulta que selecione a quantidade total de produtos vendidos (COUNT), o valor total das vendas (SUM) e a média de valor por transação, agrupados por categoria de produto.
 
-** Entregáveis:
+** Entregáveis: **
 
 - Arquivo com as consultas DQL;
 - Uma breve apresentação dos insights obtidos a partir dos resultados das consultas.
@@ -26,16 +26,16 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 # Resposta:
 
 ### 1.	
-** SELECT * FROM ljeletronicos.vendas;
+** SELECT * FROM ljeletronicos.vendas; **
 
 <img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/01.png" width="1000"/>
 
 ### 2.
-**   	USE ljeletronicos;  
-**      SELECT transcaoID AS 'IDtransacao', 
-**      Data AS 'datavenda',  
-**      Valor AS 'valorvenda' 
-**      FROM vendas;
+**   	USE ljeletronicos;   **
+**      SELECT transcaoID AS 'IDtransacao',  **
+**      Data AS 'datavenda',   **
+**      Valor AS 'valorvenda'  **
+**      FROM vendas; **
 
 ### Antes do comando de alteração de colunas
 
@@ -46,50 +46,50 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 <img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/03.png" width="1000"/>
 
 ### 3.	
-** SELECT * FROM vendas WHERE valor > 100.00; 
+** SELECT * FROM vendas WHERE valor > 100.00; **
 
-** Resultado:
+** Resultado: **
 
 <img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/04.png" width="1000"/>
 
 ### 4.
-** SELECT * FROM vendas ORDER BY Valor DESC;
+** SELECT * FROM vendas ORDER BY Valor DESC; **
 
-** Resultado:
+** Resultado: **
 
 <img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/05.png" width="1000"/>
 
 ### 5.
 ** SELECT
-** AVG(Valor) AS Media_Valor,
-** MAX(Valor) AS Valor Máximo,
-** MIN(Valor) AS Valor_Minimo,
-** COUNT(*) AS qtdvendas
-** FROM vendas
+** AVG(Valor) AS Media_Valor, **
+** MAX(Valor) AS Valor Máximo, **
+** MIN(Valor) AS Valor_Minimo, **
+** COUNT(*) AS qtdvendas **
+** FROM vendas **
 
-** Resultado:
+** Resultado: **
 
 <img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/06.png" width="1000"/>
 
 ### 6.
-**	SELECT GRUPO,
-** AVG(Valor) AS Media_Valor_Por_Grupo
-** FROM vendas
-** GROUP BY grupo;
+**	SELECT GRUPO, **
+** AVG(Valor) AS Media_Valor_Por_Grupo **
+** FROM vendas **
+** GROUP BY grupo; **
 
-** Resultado
+** Resultado **
 
 <img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/07.png" width="1000"/>
 
 ### 7.	
-** SELECT grupo,
-** COUNT(*) AS Qtd_Total_Produtos,
-** SUM(Valor) AS Valor_Total_Vendas,
-** AVG(Valor) AS Media_Valor_Por_Transacao
-** FROM vendas
-** GROUP BY grupo;
+** SELECT grupo, **
+** COUNT(*) AS Qtd_Total_Produtos, **
+** SUM(Valor) AS Valor_Total_Vendas, **
+** AVG(Valor) AS Media_Valor_Por_Transacao **
+** FROM vendas **
+** GROUP BY grupo; **
 
-** Resultado
+** Resultado **
 
 <img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/08.png" width="1000"/>
 
