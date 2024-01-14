@@ -12,21 +12,27 @@ Colunas: LivroID (Chave Primária), Título, AnoPublicação, AutorID (Chave Est
 
 **Instruções:**
 
-**1. Inserção de dados:**Insira alguns registros nas tabelas "Autores" e "Livros". Certifique-se de que existam, pelo menos, três autores e cinco
+**1. Inserção de dados:**
+Insira alguns registros nas tabelas "Autores" e "Livros". Certifique-se de que existam, pelo menos, três autores e cinco
 livros associados a esses autores;
 
-**2. Consulta simples:**Realize uma consulta simples para listar todos os autores e seus livros associados;
+**2. Consulta simples:**
+Realize uma consulta simples para listar todos os autores e seus livros associados;
 
-**3. Consulta com junção INNER JOIN:**Crie uma consulta que utilize INNER JOIN para listar os detalhes dos livros e seus autores
+**3. Consulta com junção INNER JOIN:**
+Crie uma consulta que utilize INNER JOIN para listar os detalhes dos livros e seus autores
 correspondentes;
 
-**4. Consulta com junção LEFT JOIN:**Elabore uma consulta que utilize LEFT JOIN para exibir todos os autores, independentemente de terem livros
+**4. Consulta com junção LEFT JOIN:**
+Elabore uma consulta que utilize LEFT JOIN para exibir todos os autores, independentemente de terem livros
 associados. Inclua informações dos livros, se disponiveis;
 
-**5. Consulta com filtro por nacionalidade:**Realize uma consulta que liste os autores e seus livros, mas restrinja os resultados apenas aos autores
+**5. Consulta com filtro por nacionalidade:**
+Realize uma consulta que liste os autores e seus livros, mas restrinja os resultados apenas aos autores
 de uma nacionalidade especifica;
 
-**6. Consulta agregada:**Crie uma consulta que agregue dados para contar quantos livros cada autor escreveu.
+**6. Consulta agregada:**
+Crie uma consulta que agregue dados para contar quantos livros cada autor escreveu.
 
 **Observações:**
 
