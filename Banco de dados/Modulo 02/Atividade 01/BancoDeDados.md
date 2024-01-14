@@ -17,10 +17,10 @@ Defina a integridade referencial entre as tabelas, de acordo com as relações d
 # Resposta:
 
 
-## Bando de dados BlogDB
+## Banco de dados BlogDB
 
-<img align="center" src="" width="1000"/>
+<img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2002/Atividade%2001/Imagens/atividade01.png" width="400"/>
 
 ## Modelo Relacional
 
-<img align="center" src="" width="1000"/>
+<img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2002/Atividade%2001/Imagens/atividade01_02.png" width="1000"/>
