@@ -31,11 +31,11 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 <img align="center" src="https://raw.githubusercontent.com/alexklenio/softexFapBackEnd2023/main/Banco%20de%20dados/Modulo%2003/Atividade%2001/imagens/01.png" width="1000"/>
 
 ### 2.
-**  	USE ljeletronicos;  **
-**     SELECT transcaoID AS 'IDtransacao', **
-**     Data AS 'datavenda',  **
-**     Valor AS 'valorvenda' **
-**     FROM vendas;**
+**USE ljeletronicos;**
+**SELECT transcaoID AS 'IDtransacao',**
+**Data AS 'datavenda',**
+**Valor AS 'valorvenda'**
+**FROM vendas;**
 
 ### Antes do comando de alteração de colunas
 
@@ -83,10 +83,15 @@ Para isso, você foi designado para realizar as seguintes tarefas:
 
 ### 7.	
 **SELECT grupo,**
+
 **COUNT(*) AS Qtd_Total_Produtos,**
+
 **SUM(Valor) AS Valor_Total_Vendas,**
+
 **AVG(Valor) AS Media_Valor_Por_Transacao**
+
 **FROM vendas**
+
 **GROUP BY grupo;**
 
 **Resultado**
