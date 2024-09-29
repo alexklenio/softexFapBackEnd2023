@@ -30,7 +30,7 @@ git init  //  inicializa o git no projeto
 ``` javascript
  "dev": "ts-node-dev src/index.ts",// executa o seu arquivo intex.ts sem precisar transpilar para JS
  "build": "rimraf ./build && tsc", // transpila todo o projeto para JS na pasta Build
- "start": "node build/index.js",   // excuta o novo arqiuivo index.js que foi criado, se preciso.
+ "start": "node build/index.js",   // excuta o novo arquivo "index.js" que foi criado, se preciso.
 ```
 
   
